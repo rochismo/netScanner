@@ -1,0 +1,21 @@
+{
+  "name": "PortScanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "ip-cidr": "^2.0.6",
+    "net-ping": "^1.2.3",
+    "network": "^0.4.1",
+    "raw-socket": "^1.7.0"
+  }
+}
