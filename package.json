@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "electron . --no-sandbox",
+    "init": "electron . --no-sandbox",
+    "start": "node prompt.js",
     "rebuild": "electron-rebuild -f -w raw-socket"
   },
   "keywords": [],
@@ -18,10 +19,12 @@
     "express-sse": "^0.5.1",
     "ip-cidr": "^2.0.6",
     "net-ping": "^1.2.3",
-    "network": "^0.4.1"
+    "network": "^0.4.1",
+    "sudo-prompt": "^9.0.0"
   },
   "devDependencies": {
     "electron": "^6.0.10",
+    "electron-builder": "^21.2.0",
     "electron-rebuild": "^1.8.6"
   }
 }

@@ -1,11 +1,13 @@
-const Server = require("./lib/server")
 const app = require('electron').app;
 const Window = require('electron').BrowserWindow; // jshint ignore:line
 const Tray = require('electron').Tray; // jshint ignore:line
 const Menu = require('electron').Menu; // jshint ignore:line
+let Server =require("./lib/server");;
 
-const server = new Server();
+let server = new Server();;
 let mainWindow = null;
+
+
 
 function createWindow() {
 	server.init();
