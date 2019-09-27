@@ -4,27 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "init": "electron . --no-sandbox",
-    "start": "node prompt.js",
+    "start": "electron . --no-sandbox",
     "rebuild": "electron-rebuild -f -w raw-socket"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@vue/cli": "^3.11.0",
+    "@rochismo/net-utils": "^1.0.0",
     "body-parser": "^1.19.0",
     "ejs": "^2.7.1",
     "express": "^4.17.1",
-    "express-sse": "^0.5.1",
-    "ip-cidr": "^2.0.6",
-    "net-ping": "^1.2.3",
-    "network": "^0.4.1",
-    "sudo-prompt": "^9.0.0"
+    "express-sse": "^0.5.1"
   },
   "devDependencies": {
     "electron": "^6.0.10",
-    "electron-builder": "^21.2.0",
     "electron-rebuild": "^1.8.6"
   }
 }
